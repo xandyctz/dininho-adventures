@@ -7,6 +7,14 @@
 .mainContent div {
   width: 100%;
   max-width: 800px;
+
+}
+
+.ajuda {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
 }
 
 .mainContent h1 {
@@ -20,6 +28,7 @@
 
 }
 
+
 .mainContent p {
   font-family: 'Nunito', sans-serif;
   text-align: center;
@@ -29,6 +38,13 @@
   color: var(--color-white);
 
 
+}
+
+@media screen and (max-width: 600px) {
+	.mainContent p {
+		font-size: 16px;
+		width: 80%;
+	}
 }
 
 .separador {
