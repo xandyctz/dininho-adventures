@@ -1,0 +1,9 @@
+:root {
+  --color-white: #FAFFFF;
+  --color-marrom: #7E5002;
+  --color-yellow: #FAD121;
+  --color-purple: #3D1132;
+  --color-purple-lg: #73263D;
+  --color-black: #050914;
+  --color-degrade: linear-gradient(180.22deg, #7E5002 25.16%, #E69405 36.19%, #FAD121 98.57%);
+}

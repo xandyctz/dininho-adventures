@@ -1,0 +1,7 @@
+@import "Generic/reset.css";
+@import "Base/colors.css";
+@import "Base/background.css";
+@import "Components/fundo-dino.css";
+@import "Containers/container.css";
+@import "Components/headerContent.css";
+@import "Components/mainContent.css"

@@ -1,0 +1,11 @@
+/* main {
+  height: auto;
+  background: var(--color-degrade);
+  background-repeat: no-repeat;
+} */
+
+body {
+  height: auto;
+  background: var(--color-degrade);
+  background-repeat: no-repeat;
+}
