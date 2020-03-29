@@ -7,44 +7,38 @@
 .mainContent div {
   width: 100%;
   max-width: 800px;
-
 }
 
 .ajuda {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mainContent h1 {
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
   text-align: center;
   font-size: 30px;
   color: var(--color-white);
   width: 100%;
   margin-bottom: 30px;
   margin-top: 20px;
-
 }
 
-
 .mainContent p {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   text-align: center;
   line-height: 30px;
   font-size: 20px;
   width: 100%;
   color: var(--color-white);
-
-
 }
 
 @media screen and (max-width: 600px) {
-	.mainContent p {
-		font-size: 16px;
-		width: 80%;
-	}
+  .mainContent p {
+    font-size: 16px;
+    width: 80%;
+  }
 }
 
 .separador {
@@ -67,14 +61,12 @@
 
 .line {
   display: inline-block;
-  background-color: #FFF;
+  background-color: #fff;
   width: 45%;
   height: 3px;
   border-radius: 10px;
   border: 0;
 }
-
-
 
 /* video */
 
@@ -83,14 +75,11 @@
   justify-content: center;
   margin-top: 30px;
   position: relative;
-
-
 }
 
 .dino-caixa video {
   width: 95%;
   max-width: 800px;
-
 }
 
 div .play {
@@ -98,13 +87,12 @@ div .play {
   display: flex;
   align-self: center;
   justify-content: center;
-  background-color: rgba(240, 240, 240, .5);
+  background-color: rgba(240, 240, 240, 0.5);
   width: 20px;
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
 }
-
 
 .button {
   display: flex;
@@ -114,7 +102,6 @@ div .play {
   margin-top: 20px;
   margin-bottom: 20px;
   cursor: pointer;
-
 }
 .button img {
   width: 250px;
@@ -124,12 +111,15 @@ div .play {
 .button h1 {
   z-index: 1;
   font-size: 20px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 #jogo-tem {
-  width: 85%;
+  width: 100%;
   max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #jogo-tem p {
   color: var(--color-purple);
@@ -154,18 +144,14 @@ div .play {
 #requisitos h1 {
   color: var(--color-purple-lg);
   margin-top: 25px;
-  
-  
 }
 #requisitos dl {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--color-purple);
   line-height: 20px;
-
-  
 }
 
-#requisitos dl dt{
+#requisitos dl dt {
   font-weight: bold;
 }
 #requisitos dl dt span {
@@ -183,7 +169,6 @@ div .play {
   color: var(--color-black);
   font-size: 15px;
   font-weight: bold;
-
 }
 
 .footer-dininho div {
